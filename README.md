@@ -9,7 +9,7 @@ Tests written as a part of the curriculum for [The Odin Project](https://www.the
 5. An `analyzeArray` function that takes an array of numbers and returns an object with the following properties: average, min, max, and length.
 
 ### Sample Code
-```
+```javascript
 function analyzeArray(arr) {
   let result = {};
   let sum = 0;
@@ -26,7 +26,7 @@ function analyzeArray(arr) {
 ```
 
 ### Sample Test
-```
+```javascript
 test("returns average, min, max, and length of array", () => {
   expect(analyzeArray([1, 8, 3, 4, 2, 6])).toEqual({
     average: 4,
